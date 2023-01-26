@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>login</h1>
+  
+  <form method="POST">{% csrf_token %}
+     {{error}}
+     <br>
+
+     Username:
+     <br>
+     <input name = "username"type="text">
+     <br>
+     Password:
+     <br>
+     <input name="password" type="password">
+     <br><br>
+     <input type="submit" class = "btn btn-primary" value="login">
+
+  </form>
+</div>
+
+

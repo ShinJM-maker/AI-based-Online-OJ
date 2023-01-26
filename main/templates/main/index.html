@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+	<meta charset="utf-8">
+		<title>HTML</title>
+	</head>
+	<body>
+	      <div class="container">
+               <div class="col-12 text-center">
+		<h1>Online Judge</h1>
+	       </div>
+			  </div>
+			  <br>
+                {% if user.is_authenticated %}
+				User name : {{user.username}}
+			 </br>
+			 Group name : {{user.groups.all.0}}
+			 <br></br>
+		<button type="button" class="navyBtn"
+			 onClick="location.href='user/logout'">Log out</button>
+		<button type="button" class="navyBtn"
+			 onClick="location.href='user/group'">Change group</button>
+		<button type="button" class="navyBtn"
+			 onClick="location.href='judge/'">Go to problems</button>
+                {% else %}
+                <button type="button" class="navyBtn"
+                         onClick="location.href='user/register'">Join in</button>
+                <button type="button" class="navyBtn"
+                         onClick="location.href='user/login'">Log in</button>
+                {% endif %}
+
+
+	</body>
+</html>

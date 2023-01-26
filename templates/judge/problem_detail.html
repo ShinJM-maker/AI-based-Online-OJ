@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>{{object.code}} {{object.name}}</title>
+    </head>
+    <body>
+        <div class="problem-block">
+            <h3><a href="/judge">PROBLEM LIST</a></h3>
+        </div>
+        <div class="problem-title">
+            <h1>{{object.name}}</h1>
+        </div>
+        <div class="problem-body">
+            <div class="problem-description" style=flex-grow:6>
+                {{object.description}}
+            </div>
+            <div class="source-code" style=flex-grow:4><label for="source">source code</label>
+                <input type="submit" value="SUBMIT!!" class="button">
+                <div><textarea id="source" placeholder="Write your code here!" autofocus="autofocus"></textarea>
+                </div>
+            </div>
+        </div>  
+    </body>
+</html>
+<style>
+    body{
+        padding:3%;
+    }
+    a:visited {text-decoration:none; color:#646464;}
+    .problem-block{
+        color : #646464;
+    }
+    .problem-title{
+        border-bottom: 0.1em solid #646464;
+    }
+    .problem-description{
+        padding:3em;
+    }
+    .problem-body{
+        display:flex;
+        flex-wrap:wrap;
+        padding:1em;
+        min-height:20em;
+    }
+    
+    .problem-description{
+        padding:1em; 
+        border-right:0.1em solid #646464;
+        min-width:60%;   
+    }
+    .source-code{
+        padding-left:0.3em;
+    }
+    .source-code>div{
+       min-height:20em;
+       min-width:10em;
+    }
+    #source{
+        height: 30em;
+        width:30em;
+    }
+
+
+
+</style>
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<div>
+    <h1>Change your group!</h1>
+    <form method="POST">{% csrf_token %}
+        <label for="groups">Choose a group : </label>
+        <select name="group" id="group">
+            {% for group in group_list %}
+                <option value={{group.name}}>{{ group.name }}</option>
+                </li>
+            {% endfor %}
+        </select>
+    <br><br>
+    <input type="submit" value="Submit">
+    <button type="button" class="navyBtn"
+         onClick="location.href='/'"> Home</button>
+    </form>
+    
+    <br>
+    {{message}}
+    
+    <!--form action="">
+        {%for group in group_list%}
+            {% if option == selected_item%}
+                <input type="radio" name="group" value="{{option}}" checked>{{group.name}}<br>
+            {%else%}
+                <input type="radio" name="group" value="{{option}}">{{group.name}}<br>
+            {%endif%}
+        {% endfor %}
+    </form-->
+</div>
+</html>
