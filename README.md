@@ -21,3 +21,8 @@ $ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py runserver
 ```
+
+## Contributors
+Sangon Han, Jinwoo Nam, Hyolim Lee
+
+## Licens
