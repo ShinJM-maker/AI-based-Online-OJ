@@ -22,11 +22,8 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 ## 서비스 주소
-부산대학교 SW 교육센터
-https://swedu.pusan.ac.kr/swedu/index.do
-
-부산대학교 OJ
-http://oj.pusan.ac.kr/
+[**부산대학교 SW 교육센터**](https://swedu.pusan.ac.kr/swedu/index.do)
+[**부산대학교 OJ**](http://oj.pusan.ac.kr/)
 
 ## Contributors
 Sangon Han, Jinwoo Nam, Hyolim Lee
