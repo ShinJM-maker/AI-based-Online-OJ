@@ -25,7 +25,7 @@ $ python manage.py runserver
 * [**부산대학교 SW 교육센터**](https://swedu.pusan.ac.kr/swedu/index.do)
 * [**부산대학교 OJ**](http://oj.pusan.ac.kr/)
 
-## 오픈 시스템 화면
+## 오픈 시스템
 
 ### 부산대학교 SW 교육센터
 ![image](https://user-images.githubusercontent.com/66815358/215966974-16499aaa-f6a8-4fe6-9a91-e0fa5492f50c.png)
