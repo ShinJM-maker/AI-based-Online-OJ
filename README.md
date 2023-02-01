@@ -25,6 +25,15 @@ $ python manage.py runserver
 * [**부산대학교 SW 교육센터**](https://swedu.pusan.ac.kr/swedu/index.do)
 * [**부산대학교 OJ**](http://oj.pusan.ac.kr/)
 
+## 오픈 시스템 화면
+
+### 부산대학교 SW 교육센터
+![image](https://user-images.githubusercontent.com/66815358/215966974-16499aaa-f6a8-4fe6-9a91-e0fa5492f50c.png)
+
+### 부산대학교 OJ
+![image](https://user-images.githubusercontent.com/66815358/215967154-1983c38c-3d63-4946-a895-88dc41d2828f.png)
+
+
 ## 특허
 * [**인공지능 기술기반의 학습자 수준에 맞는 문제 추천 시스템 및 방법**](http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame)
 
