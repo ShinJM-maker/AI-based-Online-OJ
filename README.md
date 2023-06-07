@@ -38,6 +38,6 @@ $ python manage.py runserver
 * [**인공지능 기술기반의 학습자 수준에 맞는 문제 추천 시스템 및 방법**](http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame)
 
 ## Contributors
-Sangon Han, Jinwoo Nam, Hyolim Lee
+Joongmin Shin, Sangon Han, Jinwoo Nam, Hyolim Lee
 
 ## Licens
